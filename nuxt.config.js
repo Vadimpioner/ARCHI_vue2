@@ -20,7 +20,7 @@ export default {
     router: {
         linkActiveClass: 'nuxtLink',
         linkExactActiveClass: 'nuxtLinkActive',
-        base: './'
+        // base: './'
     },
 
     css: [

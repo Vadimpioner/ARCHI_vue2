@@ -1,0 +1,45 @@
+.accordion-enter-active,
+.accordion-leave-active {
+    will-change: height, opacity, padding-top, padding-bottom;
+    transition: height 5s ease, opacity 5s ease, padding-top 5s ease, padding-bottom 5s ease;
+    overflow: hidden;
+}
+
+.accordion-enter,
+.accordion-leave-to {
+    height: 0 !important;
+    opacity: 0;
+}
+
+//////////////////////
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s, width .3s, margin-right .3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+    width: 0;
+    margin-right: 0 !important;
+}
+
+.fade-enter,
+.fade-leave-active {
+    .CommonModal__content {
+        transform: scale(1.1);
+    }
+}
+
+//////////////////////
+.rightLeft-enter, .rightLeft-leave-to {
+    opacity: 0 !important;
+    width: 0 !important;
+}
+
+//////////////////////
+.link-enter, .link-enter-to, .link-leave-to {
+    width: 0 !important;
+    opacity: 0 !important;
+    margin-right: 0 !important;
+}

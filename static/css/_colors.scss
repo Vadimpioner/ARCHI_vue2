@@ -1,0 +1,44 @@
+$black: #444444;
+$black_light: #333333;
+$gray: rgba(68, 68, 68, 0.9);
+$gray_light: rgba(68, 68, 68, 0.5);
+$green: #597D4E;
+$green_heavy: #425A20;;
+$green_light: #e3e6df;
+$red: #EF0000;
+
+.black {
+    color: $black;
+}
+
+.black_light {
+    color: $green;
+}
+
+.gray {
+    color: $gray;
+}
+
+.gray_light {
+    color: $gray_light;
+}
+
+.green {
+    color: $green;
+}
+
+.green_heavy {
+    color: $green_heavy;
+}
+
+.green_light {
+    color: $green_light;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: $red;
+}

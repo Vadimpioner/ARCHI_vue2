@@ -1,0 +1,87 @@
+////////////////////// глобальные настройки
+* {
+    box-sizing: border-box;
+    transition: color .3s;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    width: max-content;
+}
+
+img {
+    width: max-content;
+    object-fit: contain;
+}
+
+::selection {
+    color: white;
+    background-color: $green;
+}
+
+::-webkit-scrollbar {
+    @include adaptive_value('width', 18, 12, 1, 320);
+    @include adaptive_value('height', 18, 12, 1, 320);
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: $green;
+    border-color: white;
+    border-style: solid;
+    @include adaptive_value('border-radius', 18, 12, 1, 320);
+    @include adaptive_value('border-width', 6, 4, 1, 320);
+}
+
+////////////////////// сброс
+button,
+button:hover,
+li:hover,
+a:hover,
+li,
+a,
+*:hover,
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    background: unset;
+    border: unset;
+    padding: 0;
+    cursor: pointer;
+}
+
+:-webkit-any(article, aside, nav, section) h1,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}

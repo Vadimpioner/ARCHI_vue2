@@ -1,0 +1,79 @@
+* {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    color: $black;
+    line-height: 1.3;
+    .font_futurademic {
+        font-family: 'FuturaDemiC', sans-serif;
+    }
+    .material-icons {
+        font-family: 'Material Icons' !important;
+        line-height: 1;
+    }
+    .material-icons-outlined {
+        font-family: 'Material Icons Outlined' !important;
+        line-height: 1;
+    }
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src:
+        url('../fonts/futurademic/futurademic.eot'),
+        url('../fonts/futurademic/futurademic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futurademic/futurademic.woff2') format('woff2'),
+        url('../fonts/futurademic/futurademic.woff') format('woff'),
+        url('../fonts/futurademic/futurademic.ttf') format('truetype'),
+}
+
+.fz-10 {
+    font-size: 10px;
+}
+
+.fz-12 {
+    font-size: 12px;
+}
+
+.fz-14 {
+    @include adaptive_value('font-size', 14, 12, 1, 320);
+}
+
+.fz-16 {
+    @include adaptive_value('font-size', 16, 14, 1, 320);
+}
+
+.fz-18 {
+    @include adaptive_value('font-size', 18, 14, 1, 320);
+}
+
+.fz-20 {
+    @include adaptive_value('font-size', 20, 14, 1, 320);
+}
+
+.fz-22 {
+    @include adaptive_value('font-size', 22, 16, 1, 320);
+}
+
+.fz-24 {
+    @include adaptive_value('font-size', 24, 18, 1, 320);
+}
+
+.fz-28 {
+    @include adaptive_value('font-size', 28, 18, 1, 320);
+}
+
+.fz-30 {
+    @include adaptive_value('font-size', 30, 18, 1, 320);
+}
+
+.fz-35 {
+    @include adaptive_value('font-size', 35, 18, 1, 320);
+}
+
+.fz-50 {
+    @include adaptive_value('font-size', 50, 20, 1, 320);
+}
+
+.fz-96 {
+    @include adaptive_value('font-size', 96, 42, 1, 320);
+}

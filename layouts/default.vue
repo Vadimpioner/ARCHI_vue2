@@ -1,5 +1,8 @@
 <template>
-    <div class="TEMPLATE">
+    <div
+        class="TEMPLATE"
+        :style="{overflow: fullMenu ? 'hidden' : 'overlay'}"
+        >
         <div class="TEMPLATE__wrapper">
             <Header
                 style="flex: 0 0 auto"
@@ -47,7 +50,6 @@
 
 .TEMPLATE {
     padding-right: 18px;
-    overflow: overlay;
     &__wrapper {
         display: flex;
         flex-direction: column;

@@ -14,8 +14,6 @@ export default {
             { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
         ]
     },
-    globals: {
-    },
 
     router: {
         linkActiveClass: 'nuxtLink',
